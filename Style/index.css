@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background: hsl(216, 50%, 16%)
+}
+
+main{
+    background: hsl(216, 50%, 16%)
+}
+
+.contenedor{
+    background: linear-gradient(161.11deg,#13396b -.73%,rgba(21,39,63,.3) 101.82%);
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+hr{
+    display: flex;
+    background-color:hsl(215, 32%, 27%);
+    width: auto;
+    height: 1px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    margin: 4%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card > img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+img.clock{ 
+    width: 25%;
+}
+
+img.ruby{
+    width: 20%;
+
+}
+
+.card-body{
+    color: hsl(0, 0%, 73%);
+    font-weight: 300;
+}
+
+.card-title{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600
+}
+
+p{
+    margin: auto;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.moverTexto{
+    display: flex;
+    align-items: stretch;
+    margin: auto;
+    width: 100%;
+    padding-top: 22px;
+}
+
+.moverTexto img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.moverTexto picture {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    margin: auto;
+    padding-top: 2px;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.creacion img{
+    width:100%;
+    height:100%;
+    object-fit: cover; /*Autocomoda el contenido*/
+}
+
+.creacion picture{
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.creacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.creacion h5{
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+.attribution{
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    height: 8vh;
+    gap: 0.4rem;
+}
+
+@media screen and (min-width:1440px){
+
+    main{
+       background:hsl(216, 50%, 16%)
+    }
+
+    .contenedor{
+        background: linear-gradient(161.11deg,#13396b -.73%,rgba(21,39,63,.3) 101.82%);
+    }
+
+    .attribution{
+        background: linear-gradient(161.11deg,#13396b -.73%,rgba(21,39,63,.3) 101.82%);
+    }
+
+    body{
+        background: hsl(216, 50%, 16%)
+    }
+}
